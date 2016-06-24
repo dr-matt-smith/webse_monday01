@@ -1,0 +1,5 @@
+TAP version 13
+ok 1 - ItbTests\PostTest::testCanCreateNewPost
+ok 2 - ItbTests\PostTest::testDefaultIdIsMinusOne
+ok 3 - ItbTests\PostTest::testGetIdReturnsValueAfterSetId
+1..3

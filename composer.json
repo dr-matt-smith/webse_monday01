@@ -1,0 +1,15 @@
+{
+    "require": {
+        "symfony/http-foundation": "^3.1",
+        "twig/twig": "^1.24"
+    },
+    "autoload": {
+        "psr-4":{
+            "Itb\\":"src"
+        }
+    },
+    "scripts":{
+        "test":"php phpunit.phar --log-tap ./tests/log.txt",
+        "coverage":"php phpunit.phar --log-tap ./tests/log.txt --coverage-html ./tests/coverage"
+    }
+}
